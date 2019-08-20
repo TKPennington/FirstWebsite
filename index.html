@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Saira&display=swap" rel="stylesheet">
+	<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<video autoplay muted loop id="myVideo">
+  <source src="Particle.mp4" type="video/mp4">
+</video>
+
+<body>
+	<img onclick="closeNav()" id="closeNav" class="closeIcon" src="close.png">
+	<img onclick="openNav()"  id="openNav" class="navIcon" src="menu-icon.png">
+	<div>
+		<ul class="nav" id="nav">
+			<li class="nav-item"><a href="index.html">Home</a></li>
+			<li class="nav-item"><a href="about.html">About</a></li>
+			<li class="nav-item"><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+	<div class="main">
+		<h1>Welcome to my page!<br>This is just something I put together over a couple of days.<br>Thanks for stopping by!</h1>
+	</div>
+	<script src="navigation.js"></script>
+<footer>
+	<div class="social">
+		<div class="socialIcon" id="socialIcon">
+			<img onclick="openLinks()" id="open" src="link_icon_green.png" class="linkToggle"/>
+		</div>
+		<div class="socialLink" id="socialLink">
+			<img class="link" id="link" onclick="openInNewTab('https://www.github.com/TKPennington');" src="github.png"/>
+			<img class="link" id="link" onclick="openInNewTab('https://www.linkedin.com/in/thomas-pennington');" src="linkedin.png"/>
+			<img class="link" id="link" onclick="openInNewTab('ThomasPennington.pdf');" src="resume.png"/>
+			<img class="closeLinks" id="close" onclick="closeLinks()" src="close.png">
+		</div>
+	</div>
+	
+</footer>
+<script src="social.js"></script>
+</body>
+<footer>
+	
+</footer>
+</html>
