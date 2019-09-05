@@ -243,9 +243,8 @@ p{
 	}
 	.dropTitle{
 		text-align: center;
+		font-size: 4vw;
 		margin-top: 1vw;
-		margin-left: 1vw;
-		padding-top: -5vw;
 	}
 	.dropImg{
 		margin-top: -6vw;
