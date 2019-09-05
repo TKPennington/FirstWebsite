@@ -101,6 +101,9 @@ h2{
 p{
 	font-family: 'Saira', sans-serif;
 }
+.dropTitle{
+	font-size: 1.5vw;
+}
 
 .dropdown1{
 	position:relative;
@@ -237,34 +240,37 @@ p{
 		margin-top: 10vw;
 		text-align: center;
 		font-size: 10vw;
+		margin-bottom: 3vw;
 	}
 	p{
 		font-size: 4vw;
 	}
 	.dropTitle{
 		text-align: center;
-		font-size: 4vw;
+		text-decoration: underline;
+		font-size: 6.5vw;
 		margin-top: 1vw;
+		margin-bottom: 1.5vw;
+		margin-left: 1vw;
 	}
 	.dropImg{
-		margin-top: -6vw;
 		max-width: 80vw;
 		margin-left: 3.9vw;
 	}
 	.dropdown1{
 		width: 89%;
 		max-height: 300vw;
-		margin-bottom: 2vw;
+		margin-bottom: 3vw;
 	}
 	.dropdown2{
 		width: 89%;
 		max-height: 300vw;
-		margin-bottom: 2vw;
+		margin-bottom: 3vw;
 	}
 	.dropdown3{
 		width: 89%;
 		max-height: 300vw;
-		margin-bottom: 2vw;
+		margin-bottom: 3vw;
 	}
 	.about{
 		min-height: 45vw;
