@@ -88,7 +88,7 @@ h2{
 	clear:both;
 }
 
-.map{
+.map1{
 	display: block;
 	float:left;
 	position:relative;
@@ -98,6 +98,10 @@ h2{
 	height:650px;
 	background-color: grey;
 }
+.map2{
+	display: none;
+}
+
 form{
 	position:relative;
 	z-index: 0;
@@ -170,4 +174,146 @@ textarea::-webkit-scrollbar-thumb{
 	margin-top: -2.5vw;
 	float:left;
 	margin-left:64%;
+}
+hr{
+	display: none;
+}
+
+
+
+/*Mobile design*/
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgb(51, 51, 51);
+    overflow-y: scroll;
+	overflow-x:hidden;
+  	}
+  	#myVideo{
+  		display: none;
+  	}
+  	.closeIcon{	
+		position:absolute;
+		filter: invert(100%);
+		margin-top: -4vw;
+		z-index: 2;
+		display: block;
+		height: 15vw;
+		width: 15vw;
+		margin-left: 83.5%;  
+	}
+
+
+	.navIcon{
+		position:absolute;
+		filter: invert(100%);
+		margin-top: -4vw;
+		z-index: 1;
+		height: 15vw;
+		width: 15vw;
+		margin-left: 83.5%; 
+
+	}
+	.nav{
+		background-color: rgb(41, 41, 41);
+		margin-left: -100vw;
+		margin-right: 30vw;
+		margin-top: -15vw;
+		height: 100%;
+		width: 100%;
+		text-align: left;
+		padding-left: 30vw;
+		padding-top: 30vw;
+		padding-right: 70vw;
+		padding-bottom: 600vw;
+	}
+	.nav-item{
+		margin-bottom: 2vw;
+		margin-top: 1vw;
+	}
+	.nav-item a{
+		font-size: 16vw;
+		opacity: 1;
+		margin-bottom:1vw;
+		padding-right: 1vw;
+	}
+	h2{
+		margin-top: 6vw;
+		margin-bottom: 1vw;
+		text-align: center;
+		font-size: 10vw;
+	}
+	label{
+		font-size: 5vw;
+		padding-bottom:0vw;
+		margin-top: -1vw;
+		margin-bottom: -3vw;
+	}
+	input,label{
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 10px;
+		height: 10vw;
+		width: 80vw;
+	}
+	textarea{
+		font-size: 4vw;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 10px;
+		height: 30vw;
+		width: 80vw;
+	}
+	input{
+		border-radius: 10px;
+		font-size: 5vw;
+	}
+	.attachment{
+		width:60%;
+		margin-left: 10%;
+		padding-left:2vw;
+		font-size: 4vw;
+		padding-top: -.3vw;
+		height: 7vw;
+		padding-bottom: -3vw;
+		overflow: hidden;
+	}
+	button{
+		margin-top: 2vw;
+		margin-left: 10%;
+		font-size: 4vw;
+		height: 10vw;	
+		width: 30vw;
+		margin-bottom: 3vw;
+	}
+	.status{
+		font-size: 4vw;
+		max-height: 8vw;
+		margin-left: 45%;
+		overflow: hidden;
+		margin-top: -12vw;
+		background-color: transparent;
+	}
+	hr{
+		display: block;
+		width: 90%;
+		color:rgb(255, 222, 212);
+	}
+
+	.map1{
+		display: none; 
+	}
+	.map2{
+		display: block;
+		float:left;
+		position:relative;
+		z-index: 0;
+		margin-top: 2vw;
+		margin-bottom: 5vw;
+		margin-left: 5.05%;
+		width:90%;
+		height:100vw;
+		background-color: grey;
+	}
+
 }

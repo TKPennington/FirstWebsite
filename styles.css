@@ -82,7 +82,7 @@ li:hover{
   min-width: 100%; 
   min-height: 100%;
 }
-.main{
+.main h1{
 	text-align: center;
 	color: rgb(250,250,250);
 	background-color: rgb(1,1,1,.6);
@@ -93,7 +93,7 @@ li:hover{
 	margin-top: 15vw;
 	padding-top: 1vw;
 	padding-bottom: 1vw;
-	font-size: 1vw;
+	font-size: 2.2vw;
 	clear:both;
 }
 
@@ -129,3 +129,109 @@ li:hover{
 }
 
 
+/*Mobile design*/
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgb(51, 51, 51);
+  	}
+  	#myVideo{
+  		display: none;
+  	}
+  	.closeIcon{	
+		position:absolute;
+		filter: invert(100%);
+		z-index: 2;
+		display: block;
+		height: 15vw;
+		width: 15vw;
+		float:left;
+		margin-top: -48%;
+		margin-left: 83.5%;
+		margin-bottom: 0vw;
+	}
+
+
+	.navIcon{
+		position:absolute;
+		filter: invert(100%);
+		z-index: 1;
+		height: 15vw;
+		width: 15vw;
+		float:left;
+		margin-top: -48%;
+		margin-left: 83.5%;
+	}
+	.nav{
+		padding-top: 20vw;
+		padding-right: 4vw;
+		padding-bottom: 33.1vw;
+		height: 100%;
+		width: 100%;
+		display: block;
+		margin-right: 20vw;
+		margin-left: 0%;
+		margin-top: -50%;
+	}
+	.nav-item{
+		margin-bottom: 2vw;
+		margin-top: 1vw;
+	}
+	.nav-item a{
+		font-size: 16vw;
+		margin-bottom:1vw;
+
+		padding-right: 1vw;
+	}
+
+	.main h1{
+		text-align: center;
+		color: rgb(250,250,250);
+		background-color: rgb(1,1,1,.6);
+		text-shadow: 4px 4px rgb(1,1,1);
+		position:relative;
+		font-family: 'Saira', sans-serif;
+		z-index: 0;
+		margin-top: 50%;
+		padding-top: 1vw;
+		padding-bottom: 1vw;
+		padding-left: 2vw;
+		padding-right: 2vw;
+		font-size: 8vw;
+		clear:both;
+	}
+	.linkToggle{
+		float: left;
+		display: block;
+		max-width: 15vw;
+		bottom: 2vw;
+		margin-top: 35%;
+		padding-bottom: 3vw;
+	}
+	.socialIcon{
+		display: block;
+		margin-left: auto;
+  		margin-right: auto;
+	}
+
+	.link{
+		max-width: 25vw;
+		bottom: 2vw;
+		margin-top: 28%;
+		padding-top: 2vw;
+		background-color: rgb(41, 41, 41);
+		padding-bottom: 7vw;
+	}
+	.socialLink{
+		display: none;
+		margin-left: 12%;
+  		margin-right: auto;
+	}
+	.closeLinks{
+		max-width: 7vw;
+		margin-bottom:25.5vw;
+		background-color: rgb(230, 230, 230);
+		filter: invert(100%);
+	}
+
+}
